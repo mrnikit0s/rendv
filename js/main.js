@@ -1,7 +1,3 @@
-window.onresize = function(event) {
-    document.location.reload(true);
-}
-
 $(document).ready(function() {
     $('.header__burger').click(function() {
         $('body').toggleClass('lock');
