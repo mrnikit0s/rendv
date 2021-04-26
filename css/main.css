@@ -38,7 +38,7 @@ body.lock {
 }
 
 .comments:before {
-  content: url("/img/news/comment.svg");
+  content: url("img/news/comment.svg");
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -199,7 +199,7 @@ body.lock {
 }
 
 .sidebar__header span:before {
-  content: url("/img/sidebar/articles.svg");
+  content: url("img/sidebar/articles.svg");
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -281,7 +281,7 @@ body.lock {
 }
 
 .sidebar__blog:before {
-  content: url("/img/sidebar/blog.svg");
+  content: url("img/sidebar/blog.svg");
   padding: 0px 13px 0px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -304,7 +304,7 @@ body.lock {
 }
 
 .sidebar__reviews:before {
-  content: url("/img/sidebar/reviews.svg");
+  content: url("img/sidebar/reviews.svg");
   padding: 0px 13px 0px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -328,7 +328,7 @@ body.lock {
 }
 
 .sidebar__rating:before {
-  content: url("/img/sidebar/rating.svg");
+  content: url("img/sidebar/rating.svg");
   padding: 0px 13px 0px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -351,7 +351,7 @@ body.lock {
 }
 
 .sidebar__video:before {
-  content: url("/img/sidebar/video.svg");
+  content: url("img/sidebar/video.svg");
   padding: 0px 13px 0px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -375,7 +375,7 @@ body.lock {
 }
 
 .sidebar__questions:before {
-  content: url("/img/sidebar/questions.svg");
+  content: url("img/sidebar/questions.svg");
   padding: 0px 13px 0px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -492,7 +492,7 @@ body.lock {
 }
 
 .article__comments:before {
-  content: url("/img/news/comment.svg");
+  content: url("img/news/comment.svg");
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -671,7 +671,7 @@ body.lock {
 }
 
 .right__search input::-webkit-input-placeholder {
-  background: url("/img/news/search.svg") no-repeat 0px 0px;
+  background: url("img/news/search.svg") no-repeat 0px 0px;
   padding: 1px 0px 0px 30px;
   font-weight: 400;
   font-size: 15px;
@@ -680,7 +680,7 @@ body.lock {
 }
 
 .right__search input:-ms-input-placeholder {
-  background: url("/img/news/search.svg") no-repeat 0px 0px;
+  background: url("img/news/search.svg") no-repeat 0px 0px;
   padding: 1px 0px 0px 30px;
   font-weight: 400;
   font-size: 15px;
@@ -689,7 +689,7 @@ body.lock {
 }
 
 .right__search input::-ms-input-placeholder {
-  background: url("/img/news/search.svg") no-repeat 0px 0px;
+  background: url("img/news/search.svg") no-repeat 0px 0px;
   padding: 1px 0px 0px 30px;
   font-weight: 400;
   font-size: 15px;
@@ -698,7 +698,7 @@ body.lock {
 }
 
 .right__search input::placeholder {
-  background: url("/img/news/search.svg") no-repeat 0px 0px;
+  background: url("img/news/search.svg") no-repeat 0px 0px;
   padding: 1px 0px 0px 30px;
   font-weight: 400;
   font-size: 15px;

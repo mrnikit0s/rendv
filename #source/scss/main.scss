@@ -41,7 +41,7 @@ body.lock {
 }
 
 .comments:before {
-    content: url('/img/news/comment.svg');
+    content: url('img/news/comment.svg');
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -171,7 +171,7 @@ body.lock {
     // .sidebar__header
     &__header {}
     &__header span:before {
-        content: url('/img/sidebar/articles.svg');
+        content: url('img/sidebar/articles.svg');
         display: flex;
         flex-direction: row;
         padding: 0px 15px 0px 0px;
@@ -228,7 +228,7 @@ body.lock {
         17.58);
     }
     &__blog:before {
-        content: url('/img/sidebar/blog.svg');
+        content: url('img/sidebar/blog.svg');
         padding: 0px 13px 0px 0px;
         display: flex;
         flex: 0 0 15px;
@@ -242,7 +242,7 @@ body.lock {
         17.58);
     }
     &__reviews:before {
-        content: url('/img/sidebar/reviews.svg');
+        content: url('img/sidebar/reviews.svg');
         padding: 0px 13px 0px 0px;
         display: flex;
         flex: 0 0 15px;
@@ -257,7 +257,7 @@ body.lock {
         17.58);
     }
     &__rating:before {
-        content: url('/img/sidebar/rating.svg');
+        content: url('img/sidebar/rating.svg');
         padding: 0px 13px 0px 0px;
         display: flex;
         flex: 0 0 15px;
@@ -271,7 +271,7 @@ body.lock {
         17.58);
     }
     &__video:before {
-        content: url('/img/sidebar/video.svg');
+        content: url('img/sidebar/video.svg');
         padding: 0px 13px 0px 0px;
         display: flex;
         flex: 0 0 15px;
@@ -286,7 +286,7 @@ body.lock {
         margin: 20px 0px 0px 0px;
     }
     &__questions:before {
-        content: url('/img/sidebar/questions.svg');
+        content: url('img/sidebar/questions.svg');
         padding: 0px 13px 0px 0px;
         display: flex;
         flex: 0 0 15px;
@@ -384,7 +384,7 @@ body.lock {
     &__date {}
     // .article__comments
     &__comments:before {
-        content: url('/img/news/comment.svg');
+        content: url('img/news/comment.svg');
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -513,7 +513,7 @@ body.lock {
         padding: 0px 0px 0px 30px;
     }
     &__search input::placeholder {
-        background: url('/img/news/search.svg') no-repeat 0px 0px;
+        background: url('img/news/search.svg') no-repeat 0px 0px;
         padding: 1px 0px 0px 30px;
         @include fnt(400,
         15,
