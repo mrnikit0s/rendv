@@ -1401,6 +1401,9 @@ body.lock {
 }
 
 @media (max-width: 321px) {
+  .header__row {
+    padding: 0px 10px 0px 10px;
+  }
   .main__title {
     display: -webkit-box;
     display: -ms-flexbox;

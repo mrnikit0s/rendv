@@ -1378,6 +1378,11 @@ body.lock {
 }
 
 @media (max-width: 321px) {
+    .header {
+        &__row {
+            padding: 0px 10px 0px 10px;
+        }
+    }
     .main {
         &__title {
             display: flex;
