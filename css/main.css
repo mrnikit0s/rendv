@@ -138,8 +138,8 @@ body.lock {
 
 .header__link {
   font-weight: 400;
-  font-size: 15pxpx;
-  line-height: 18pxpx;
+  font-size: 15px;
+  line-height: 18px;
   color: #181818;
   text-decoration: none;
 }
@@ -165,8 +165,8 @@ body.lock {
   background: #7AB764;
   text-decoration: none;
   font-weight: 500;
-  font-size: 15pxpx;
-  line-height: 18pxpx;
+  font-size: 15px;
+  line-height: 18px;
   color: white;
   border-radius: 5px;
 }
@@ -174,8 +174,8 @@ body.lock {
 .header__login {
   padding: 11px 25px 11px 25px;
   font-weight: 500;
-  font-size: 15pxpx;
-  line-height: 18pxpx;
+  font-size: 15px;
+  line-height: 18px;
   color: #7AB764;
   text-decoration: none;
   background: #DEF1D7;

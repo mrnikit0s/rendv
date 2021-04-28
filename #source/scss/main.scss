@@ -118,8 +118,8 @@ body.lock {
     // .header__link
     &__link {
         @include fnt (400,
-        15px,
-        18px);
+        15,
+        18);
         color: #181818;
         text-decoration: none;
     }
@@ -142,8 +142,8 @@ body.lock {
         background: #7AB764;
         text-decoration: none;
         @include fnt(500,
-        15px,
-        18px);
+        15,
+        18);
         color: white;
         border-radius: 5px;
     }
@@ -151,8 +151,8 @@ body.lock {
     &__login {
         padding: 11px 25px 11px 25px;
         @include fnt(500,
-        15px,
-        18px);
+        15,
+        18);
         color: #7AB764;
         text-decoration: none;
         background: #DEF1D7;
