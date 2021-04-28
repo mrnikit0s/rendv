@@ -31,7 +31,7 @@ body.lock {
 }
 
 .title {
-    margin: 0px 0px 0px 230px;
+    margin: 100px 0px 0px 230px;
     padding: 30px 0px 41px 0px;
     @include fnt(500, 36, 36);
 }
@@ -57,8 +57,48 @@ body.lock {
     color: #586EB6;
 }
 
+.views {
+    display: flex;
+    flex-direction: row;
+}
+
+.views:before {
+    content: url('../img/expert/views.svg');
+    display: flex;
+    margin: 0px 10px 0px 0px;
+}
+
+.views span,
+.comments span,
+.date span {
+    @include fnt(400,
+    15,
+    22.5);
+    color: #9E9E9E;
+}
+
 .date {
     margin: 0px 10px 0px 0px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.left {
+    flex: 0 0 190px;
+}
+
+// .main__center
+.center {
+    flex: 0 0 740px;
+    margin: 0px 30px 0px 30px;
+}
+
+.right {
+    flex: 0 0 300px;
 }
 
 .header:before {
@@ -736,6 +776,83 @@ body.lock {
         18);
     }
 }
+
+
+/*---------------------------------------expert---------------------------------*/
+
+.expert {
+    // .expert__wrapper
+    &__wrapper {}
+    // .expert__items
+    &__items {}
+    // .expert__item
+    &__item {
+        margin: 0px 0px 20px 0px;
+        padding: 20px 20px 20px 20px;
+        display: flex;
+        flex-direction: row;
+        background: #fff;
+    }
+    // .expert__photo
+    &__photo {
+        flex: 0 0 170px;
+        margin: 0px 31px 0px 0px;
+    }
+    // .expert__content
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &__top {}
+    &__bottom {}
+    // .expert__name
+    &__name {
+        @include fnt(500,
+        15,
+        22.5);
+        color: #181818;
+    }
+    // .expert__position
+    &__position {
+        @include fnt(400,
+        15,
+        22.5);
+        color: #9E9E9E;
+    }
+    // .expert__h
+    &__h {
+        @include fnt(500,
+        20,
+        30);
+        color: #181818;
+        margin: 20px 0px 20px 0px;
+    }
+    // .expert__text
+    &__text {
+        @include fnt(400,
+        15,
+        22.5);
+        color: #181818;
+    }
+    // .expert__row
+    &__row {
+        display: flex;
+        flex-direction: row;
+    }
+    &__date {
+        margin: 0px 10px 0px 0px;
+    }
+    &__comments {
+        margin: 0px 10px 0px 0px;
+    }
+    &__views {
+        margin: 0px 10px 0px 0px;
+    }
+}
+
+
+/*---------------------------------------expert---------------------------------*/
 
 @media (max-width: 1440px) {
     .header:before {
