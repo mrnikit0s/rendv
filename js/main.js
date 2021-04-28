@@ -10,10 +10,8 @@ $(document).ready(function() {
 if (window.screen.width <= 1024) {
     $('.right__search').prependTo('.main__row');
     $('#copyright').prependTo('.main__bottom');
-    console.log('1024');
 } else
 if (window.screen.width <= 1440) {
-    console.log('1440');
     $('.right__search').prependTo('.main__row');
 
 }
