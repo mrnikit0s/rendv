@@ -215,8 +215,8 @@ body.lock {
   display: -ms-flexbox;
   display: flex;
   font-weight: 500;
-  font-size: 15pxpx;
-  line-height: 18pxpx;
+  font-size: 15px;
+  line-height: 18px;
   color: #586EB6;
 }
 

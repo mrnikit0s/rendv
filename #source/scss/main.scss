@@ -179,8 +179,8 @@ body.lock {
     &__header span {
         display: flex;
         @include fnt(500,
-        15px,
-        18px);
+        15,
+        18);
         color: #586EB6;
     }
     &__split {
