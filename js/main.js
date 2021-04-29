@@ -7,6 +7,11 @@ $(document).ready(function() {
         $('.main__left').toggleClass('active');
         $('.main__right').toggleClass('active');
     });
+    if (window.screen.width <= 1440) {
+        $('.sidebar__list li').prependTo('.header__list');
+        $('.sidebar__link').addClass('header__link');
+    }
+
     if (window.screen.width <= 767) {
         $('.right__search').prependTo('.main__content');
         $('.main__title').click(function() {
@@ -31,6 +36,7 @@ function expertMove() {
         $(`.expert__item:nth-child(${i}) .expert__name`).prependTo(`.itm${i}`);
     }
 }
+
 
 window.addEventListener('resize', function(event) {
     if (window.screen.width >= 1024) {

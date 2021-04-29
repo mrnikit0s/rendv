@@ -25,6 +25,10 @@ body.lock {
   padding: 0px 0px 0px 0px;
 }
 
+.visible {
+  display: block;
+}
+
 .title {
   margin: 100px 0px 0px 230px;
   padding: 30px 0px 41px 0px;
@@ -808,6 +812,10 @@ body.lock {
   color: #9e9e9e;
 }
 
+.email > .email__push {
+  display: none;
+}
+
 .email__content {
   margin: 21px 0px 31px 0px;
   padding: 20px 14px 20px 14px;
@@ -1038,6 +1046,26 @@ body.lock {
 }
 
 /*---------------------------------------expert---------------------------------*/
+.expert__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.expert__back {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #9e9e9e;
+  text-decoration: none;
+}
+
 .expert__item {
   margin: 0px 0px 20px 0px;
   padding: 20px 20px 20px 20px;
@@ -1133,6 +1161,9 @@ body.lock {
 
 /*---------------------------------------expert---------------------------------*/
 @media (max-width: 1440px) {
+  .title {
+    margin: 100px 0px 0px 0px;
+  }
   .container {
     padding: 0px 10px 0px 10px;
   }
@@ -1183,17 +1214,22 @@ body.lock {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
   .header__list li {
-    padding: 0px 0px 0px 20px;
-    margin: 10px 0px 10px 0px;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+    -webkit-box-shadow: 0px 2px 10px 2px rgba(34, 60, 80, 0.11);
+    box-shadow: 0px 2px 10px 2px rgba(34, 60, 80, 0.11);
   }
   .header__burger {
     width: 20px;
@@ -1570,6 +1606,9 @@ body.lock {
   .expert__title {
     padding: 15px 0px 23px 0px;
   }
+  .expert__back {
+    display: none;
+  }
   .expert__name {
     font-weight: 500;
     font-size: 12px;
@@ -1642,6 +1681,15 @@ body.lock {
 @media (max-width: 321px) {
   .header__row {
     padding: 0px 10px 0px 10px;
+  }
+  .header__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .main__title {
     display: -webkit-box;
