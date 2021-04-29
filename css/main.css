@@ -1564,6 +1564,73 @@ body.lock {
   .expert {
     margin: 10px 0px 0px 0px;
   }
+  .expert__name {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .expert__position {
+    margin: 5px 0px 0px 0px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+  }
+  .expert__h {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .expert__text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .expert__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .expert__content {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .expert__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .expert__photo {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50px;
+            flex: 0 0 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .expert__photo img {
+    -o-object-fit: fill;
+       object-fit: fill;
+  }
+  .expert__bottom {
+    margin: 10px 0px 0px 0px;
+  }
+  .expert__pages {
+    margin: 0px 0px 0px 0px;
+  }
 }
 
 @media (max-width: 321px) {
