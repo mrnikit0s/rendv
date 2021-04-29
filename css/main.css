@@ -1550,6 +1550,9 @@ body.lock {
     padding: 10px 30px 10px 30px;
     margin: 0px 0px 30px 0px;
   }
+  .right__content {
+    margin: 10px 0px 0px 0px;
+  }
   .right__search {
     margin: 10px 0px 0px 0px;
   }
@@ -1563,6 +1566,9 @@ body.lock {
   }
   .expert {
     margin: 10px 0px 0px 0px;
+  }
+  .expert__title {
+    padding: 15px 0px 23px 0px;
   }
   .expert__name {
     font-weight: 500;

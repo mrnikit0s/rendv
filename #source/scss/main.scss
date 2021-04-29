@@ -1463,6 +1463,9 @@ body.lock {
     }
     .active {}
     .right {
+        &__content {
+            margin: 10px 0px 0px 0px;
+        }
         &__search {
             margin: 10px 0px 0px 0px;
         }
@@ -1509,6 +1512,9 @@ body.lock {
     }
     .full {}
     .expert {
+        &__title {
+            padding: 15px 0px 23px 0px;
+        }
         margin: 10px 0px 0px 0px;
         &__name {
             @include fnt(500,
