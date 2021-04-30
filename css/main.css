@@ -1159,6 +1159,40 @@ body.lock {
   margin: 0px 0px 100px 0px;
 }
 
+/*---------------------------------------rewiews---------------------------------*/
+.reviews__stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  width: 120px;
+}
+
+.reviews__stars input[type="radio"] {
+  display: none;
+}
+
+.label__rating:not(:first-child) {
+  margin: 0px 5px 0px 0px;
+}
+
+.label__rating {
+  display: block;
+  width: 20px;
+  height: 19px;
+  background: url("../img/reviews/star.svg") no-repeat 50% 0;
+}
+
+.label__rating:hover,
+.label__rating:hover ~ .label__rating,
+input[type='radio']:checked ~ .label__rating {
+  background: url("../img/reviews/star-active.svg") no-repeat 50% 0;
+  background-position: 50% 0;
+}
+
 /*---------------------------------------expert---------------------------------*/
 @media (max-width: 1440px) {
   .title {

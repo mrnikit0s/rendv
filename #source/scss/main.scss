@@ -882,6 +882,40 @@ body.lock {
 }
 
 
+/*---------------------------------------rewiews---------------------------------*/
+
+.reviews {
+    // .reviews__stars
+    &__stars {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 120px;
+    }
+    &__stars input[type="radio"] {
+        display: none;
+    }
+}
+
+.label {
+    // .label__rating
+    &__rating:not(:first-child) {
+        margin: 0px 5px 0px 0px;
+    }
+    &__rating {
+        display: block;
+        width: 20px;
+        height: 19px;
+        background: url('../img/reviews/star.svg') no-repeat 50% 0;
+    }
+    &__rating:hover,
+    &__rating:hover~&__rating,
+    input[type='radio']:checked~&__rating {
+        background: url('../img/reviews/star-active.svg') no-repeat 50% 0;
+        background-position: 50% 0;
+    }
+}
+
+
 /*---------------------------------------expert---------------------------------*/
 
 @media (max-width: 1440px) {
