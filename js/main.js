@@ -1,4 +1,5 @@
 let flag = true;
+
 $(document).ready(function() {
     $('.header__burger').click(function() {
         $('body').toggleClass('lock');
@@ -37,10 +38,24 @@ function expertMove() {
     }
 }
 
+function articleMove() {
+    /*отзывы*/
+    let articleCount = document.querySelectorAll('.rw__article').length;
+    for (let i = 1; i < articleCount + 1; i++) {
+        $(`.rw__article:nth-child(${i}) .rw__n`).prependTo(`.rw__article:nth-child(${i}) .rw__c`);
+        $(`.rw__article:nth-child(${i}) .rw__c`).prependTo(`.rw__article:nth-child(${i}) .rw__r`);
+        $(`.rw__article:nth-child(${i}) .rw__c`).append(`<div class="rw__rn"></div>`);
+        $(`.rw__article:nth-child(${i}) .rw__comments`).prependTo(`.rw__article:nth-child(${i}) .rw__rn`);
+        $(`.rw__article:nth-child(${i}) .rw__likes`).prependTo(`.rw__article:nth-child(${i}) .rw__rn`);
+        $(`.rw__article:nth-child(${i}) .rw__date`).prependTo(`.rw__article:nth-child(${i}) .rw__rn`);
+    }
+}
+
 
 window.addEventListener('resize', function(event) {
     if (window.screen.width >= 1024) {
         $('.right__search').prependTo('.main__right');
+
     }
     if (window.screen.width <= 1024) {
         $('.right__search').prependTo('.main__row');
@@ -57,6 +72,7 @@ window.addEventListener('resize', function(event) {
         });
         if (flag) {
             expertMove();
+            articleMove();
             flag = false;
         }
     }

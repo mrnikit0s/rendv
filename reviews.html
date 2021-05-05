@@ -46,11 +46,8 @@
         <main class="main">
             <div class="container">
                 <div class="main__content">
-                    <div class="main__title title">
-                        <span>Отзывы</span>
-                    </div>
                     <div class="main__row">
-                        <div class="main__left">
+                        <div class="main__left rw__left">
                             <nav class="sidebar">
                                 <div class="sidebar__blog">
                                     <span>Блог</span>
@@ -81,140 +78,263 @@
                             </nav>
                         </div>
                         <div class="main__center">
-                            <div class="main__articles">
-                                <div class="main__rows">
-                                    <div class="main__article article">
-                                        <div class="article__image">
-                                            <img src="img/news/Rectangle145.webp" alt="">
+                            <div class="main__title title rw__title">
+                                <span>Отзывы</span>
+                            </div>
+                            <div class="rw__select">
+                                <select name="rw" id="rw">
+                                    <option value="Только с комментариями">Только с комментариями</option>
+                                    <option value="Без комментариев">Без комментариев</option>
+                                    <option value="Лучшая оценка">Лучшая оценка</option>
+                                </select>
+                            </div>
+                            <div class="rw__articles">
+                                <div class="rw__article">
+                                    <div class="rw__top row">
+                                        <div class="reviews__stars stars rw__stars">
+                                            <input type="radio" name="rating1" id="rating_51" />
+                                            <label for="rating_51" class="label__rating"></label>
+                                            <input type="radio" name="rating1" id="rating_41" />
+                                            <label for="rating_41" class="label__rating"></label>
+                                            <input type="radio" name="rating1" id="rating_31" />
+                                            <label for="rating_31" class="label__rating"></label>
+                                            <input type="radio" name="rating1" id="rating_21" />
+                                            <label for="rating_21" class="label__rating"></label>
+                                            <input type="radio" name="rating1" id="rating_11" />
+                                            <label for="rating_11" class="label__rating"></label>
                                         </div>
-                                        <div class="article__body">
-                                            <div class="article__title">
-                                                Новости Pro.Недвижимость
-                                            </div>
-                                            <div class="article__header">
-                                                У новой ледовой арены в Новосибирске разобьют сквер
-                                            </div>
-                                        </div>
-                                        <div class="article__row">
-                                            <div class="article__date date">
-                                                <span>18 часов назад</span>
-                                            </div>
-                                            <div class="article__comments comments">
-                                                <span>0</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="main__article article">
-                                        <div class="article__image">
-                                            <img src="img/news/Rectangle146.webp" alt="">
-                                        </div>
-                                        <div class="article__body">
-                                            <div class="article__title">
-                                                Новости Pro.Недвижимость
-                                            </div>
-                                            <div class="article__header">
-                                                У Первомайского сквера в Новосибирске провалился тротуар: его чинили 6 месяцев подряд
-                                            </div>
-                                        </div>
-                                        <div class="article__row">
-                                            <div class="article__date date">
-                                                <span>25 июля 2020 г.</span>
-                                            </div>
-                                            <div class="article__comments comments">
-                                                <span>25</span>
-                                            </div>
+                                        <div class="reviews__name rw__name">
+                                            <span>Тинькофф Банк</span>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="main__wide wide" style="background: url('img/news/Rectangle147.webp') 0 0 no-repeat; background-size: cover;">
-                                    <div class="wide__content">
-                                        <div class="wide__title">
-                                            <span>Новости Pro.Недвижимость</span>
+                                    <div class="rw__body">
+                                        <div class="rw__h">
+                                            <span>Благодарность специалисту Светлане</span>
                                         </div>
-                                        <div class="wide__header">
-                                            <span>
-                                            В России запустили серию бесплатных вебинаров по экотуризму
-                                        </span>
+                                        <div class="rw__text">
+                                            Я хочу выразить благодарность специалисту Светлане, которая работала с моим обращением в чате 23.09.20 примерно в 00:00-01:00. Она очень компетентная, грамотная, а ещё понятно и точно даёт ответы на вопросы. Порадовал стиль общения, эмпатия и заинтересованность
+                                            в диалоге.
                                         </div>
-                                        <div class="wide__row">
-                                            <div class="wide__date date">
-                                                <span>12 августа 2020 г.</span>
+                                    </div>
+                                    <div class="rw__bottom row">
+                                        <div class="rw__r row">
+                                            <div class=" rw__l ">
+                                                <img src="/img/reviews/Ellipse12-3.png" alt="">
                                             </div>
-                                            <div class="wide__comments comments">
-                                                <span>0</span>
+                                            <div class="rw__n">
+                                                Chernovskaya19
+                                            </div>
+                                        </div>
+                                        <div class="rw__c row">
+                                            <div class="rw__comments comments">
+                                                <span>37</span>
+                                            </div>
+                                            <div class="rw__likes likes">
+                                                <span>7</span>
+                                            </div>
+                                            <div class="rw__date date">
+                                                <span>15 часов назад</span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="main__rows">
-                                    <div class="main__article article">
-                                        <div class="article__image">
-                                            <img src="img/news/Rectangle148.webp" alt="">
+                                <div class="rw__article">
+                                    <div class="rw__top row">
+                                        <div class="reviews__stars stars rw__stars">
+                                            <input type="radio" name="rating1" id="rating_51" />
+                                            <label for="rating_51" class="label__rating"></label>
+                                            <input type="radio" name="rating1" id="rating_41" />
+                                            <label for="rating_41" class="label__rating"></label>
+                                            <input type="radio" name="rating1" id="rating_31" />
+                                            <label for="rating_31" class="label__rating"></label>
+                                            <input type="radio" name="rating1" id="rating_21" />
+                                            <label for="rating_21" class="label__rating"></label>
+                                            <input type="radio" name="rating1" id="rating_11" />
+                                            <label for="rating_11" class="label__rating"></label>
                                         </div>
-                                        <div class="article__body">
-                                            <div class="article__title">
-                                                Новости Pro.Недвижимость
-                                            </div>
-                                            <div class="article__header">
-                                                ВТБ снизил до 15 % первоначальный взнос по ипотеке для семей с детьми
-                                            </div>
-                                        </div>
-                                        <div class="article__row">
-                                            <div class="article__date date">
-                                                <span>18 часов назад</span>
-                                            </div>
-                                            <div class="article__comments comments">
-                                                <span>0</span>
-                                            </div>
+                                        <div class="reviews__name rw__name">
+                                            <span>Райффайзен Банк</span>
                                         </div>
                                     </div>
-                                    <div class="main__article article">
-                                        <div class="article__image">
-                                            <img src="img/news/Rectangle149.webp" alt="">
+                                    <div class="rw__body">
+                                        <div class="rw__h">
+                                            <span>Необоснованная блокировка счета! Остановка работы, убыток!</span>
                                         </div>
-                                        <div class="article__body">
-                                            <div class="article__title">
-                                                Новости Pro.Недвижимость
+                                        <div class="rw__text">
+                                            Добрый вечер. Приобрели готовую компанию с расчетным счетом в Банке «Тинькофф». Переоформили быстро, приехал представитель, начали работать. Сняли несколько раз наличные средства не превышая лимитов (Данный факт финансово-хозяйственной деятельности...
+                                        </div>
+                                    </div>
+                                    <div class="rw__bottom row">
+                                        <div class="rw__r row">
+                                            <div class=" rw__l ">
+                                                <img src="/img/reviews/Ellipse12-4.png" alt="">
                                             </div>
-                                            <div class="article__header">
-                                                Центробанк порекомендовал банкам и МФО не выселять должников до конца года
+                                            <div class="rw__n">
+                                                Виталий Валентинов
                                             </div>
                                         </div>
-                                        <div class="article__row">
-                                            <div class="article__date date">
-                                                <span>25 июля 2020 г.</span>
+                                        <div class="rw__c row">
+                                            <div class="rw__comments comments">
+                                                <span>37</span>
                                             </div>
-                                            <div class="article__comments comments">
-                                                <span>25</span>
+                                            <div class="rw__likes likes">
+                                                <span>7</span>
+                                            </div>
+                                            <div class="rw__date date">
+                                                <span>15 часов назад</span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="main__wide wide" style="background: url('img/news/Rectangle150.webp') 0 0 no-repeat; background-size: cover;">
-                                    <div class="wide__content">
-                                        <div class="wide__title">
-                                            <span>Новости Pro.Недвижимость</span>
+                                <div class="rw__article">
+                                    <div class="rw__top row">
+                                        <div class="reviews__stars stars rw__stars">
+                                            <input type="radio" name="rating1" id="rating_51" />
+                                            <label for="rating_51" class="label__rating"></label>
+                                            <input type="radio" name="rating1" id="rating_41" />
+                                            <label for="rating_41" class="label__rating"></label>
+                                            <input type="radio" name="rating1" id="rating_31" />
+                                            <label for="rating_31" class="label__rating"></label>
+                                            <input type="radio" name="rating1" id="rating_21" />
+                                            <label for="rating_21" class="label__rating"></label>
+                                            <input type="radio" name="rating1" id="rating_11" />
+                                            <label for="rating_11" class="label__rating"></label>
                                         </div>
-                                        <div class="wide__header">
-                                            <span>
-                                                Основную конструкцию четвертого моста
-                                                через Обь начнут строить в 2020 году
-                                        </span>
+                                        <div class="reviews__name rw__name">
+                                            <span>ВТБ Банк</span>
                                         </div>
-                                        <div class="wide__row">
-                                            <div class="wide__date date">
-                                                <span>12 августа 2020 г.</span>
+                                    </div>
+                                    <div class="rw__body">
+                                        <div class="rw__h">
+                                            <span>Довольна всем</span>
+                                        </div>
+                                        <div class="rw__text">
+                                            Оперативно и быстро продлили страхование, разъяснили все чётко и понятно. Компанией довольна и буду рекомендовать
+                                        </div>
+                                    </div>
+                                    <div class="rw__bottom row">
+                                        <div class="rw__r row">
+                                            <div class=" rw__l ">
+                                                <img src="/img/reviews/Ellipse12-5.png" alt="">
                                             </div>
-                                            <div class="wide__comments comments">
+                                            <div class="rw__n">
+                                                Анна
+                                            </div>
+                                        </div>
+                                        <div class="rw__c row">
+                                            <div class="rw__comments comments">
                                                 <span>0</span>
+                                            </div>
+                                            <div class="rw__likes likes">
+                                                <span>0</span>
+                                            </div>
+                                            <div class="rw__date date">
+                                                <span>15 часов назад</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rw__article">
+                                    <div class="rw__top row">
+                                        <div class="reviews__stars stars rw__stars">
+                                            <input type="radio" name="rating1" id="rating_51" />
+                                            <label for="rating_51" class="label__rating"></label>
+                                            <input type="radio" name="rating1" id="rating_41" />
+                                            <label for="rating_41" class="label__rating"></label>
+                                            <input type="radio" name="rating1" id="rating_31" />
+                                            <label for="rating_31" class="label__rating"></label>
+                                            <input type="radio" name="rating1" id="rating_21" />
+                                            <label for="rating_21" class="label__rating"></label>
+                                            <input type="radio" name="rating1" id="rating_11" />
+                                            <label for="rating_11" class="label__rating"></label>
+                                        </div>
+                                        <div class="reviews__name rw__name">
+                                            <span>Райффайзен Банк</span>
+                                        </div>
+                                    </div>
+                                    <div class="rw__body">
+                                        <div class="rw__h">
+                                            <span>Необоснованная блокировка счета! Остановка работы, убыток!</span>
+                                        </div>
+                                        <div class="rw__text">
+                                            Добрый вечер. Приобрели готовую компанию с расчетным счетом в Банке «Тинькофф». Переоформили быстро, приехал представитель, начали работать. Сняли несколько раз наличные средства не превышая лимитов (Данный факт финансово-хозяйственной деятельности...
+                                        </div>
+                                    </div>
+                                    <div class="rw__bottom row">
+                                        <div class="rw__r row">
+                                            <div class=" rw__l ">
+                                                <img src="/img/reviews/Ellipse12-4.png" alt="">
+                                            </div>
+                                            <div class="rw__n">
+                                                Виталий Валентинов
+                                            </div>
+                                        </div>
+                                        <div class="rw__c row">
+                                            <div class="rw__comments comments">
+                                                <span>37</span>
+                                            </div>
+                                            <div class="rw__likes likes">
+                                                <span>7</span>
+                                            </div>
+                                            <div class="rw__date date">
+                                                <span>15 часов назад</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rw__article">
+                                    <div class="rw__top row">
+                                        <div class="reviews__stars stars rw__stars">
+                                            <input type="radio" name="rating1" id="rating_51" />
+                                            <label for="rating_51" class="label__rating"></label>
+                                            <input type="radio" name="rating1" id="rating_41" />
+                                            <label for="rating_41" class="label__rating"></label>
+                                            <input type="radio" name="rating1" id="rating_31" />
+                                            <label for="rating_31" class="label__rating"></label>
+                                            <input type="radio" name="rating1" id="rating_21" />
+                                            <label for="rating_21" class="label__rating"></label>
+                                            <input type="radio" name="rating1" id="rating_11" />
+                                            <label for="rating_11" class="label__rating"></label>
+                                        </div>
+                                        <div class="reviews__name rw__name">
+                                            <span>Тинькофф Банк</span>
+                                        </div>
+                                    </div>
+                                    <div class="rw__body">
+                                        <div class="rw__h">
+                                            <span>Благодарность специалисту Светлане</span>
+                                        </div>
+                                        <div class="rw__text">
+                                            Я хочу выразить благодарность специалисту Светлане, которая работала с моим обращением в чате 23.09.20 примерно в 00:00-01:00. Она очень компетентная, грамотная, а ещё понятно и точно даёт ответы на вопросы. Порадовал стиль общения, эмпатия и заинтересованность
+                                            в диалоге.
+                                        </div>
+                                    </div>
+                                    <div class="rw__bottom row">
+                                        <div class="rw__r row">
+                                            <div class=" rw__l ">
+                                                <img src="/img/reviews/Ellipse12-3.png" alt="">
+                                            </div>
+                                            <div class="rw__n">
+                                                Chernovskaya19
+                                            </div>
+                                        </div>
+                                        <div class="rw__c row">
+                                            <div class="rw__comments comments">
+                                                <span>37</span>
+                                            </div>
+                                            <div class="rw__likes likes">
+                                                <span>7</span>
+                                            </div>
+                                            <div class="rw__date date">
+                                                <span>15 часов назад</span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="main__pages pages">
-                                <div class="pages__row">
-                                    <div class="pages__num">
+                            <div class="rw__pages pages">
+                                <div class="rw__row">
+                                    <div class="rw__num">
                                         <ul class="pages__list">
                                             <li class="active"><a href="#" class="pages__link ">1</a></li>
                                             <li><a href="#" class="pages__link">2</a></li>
@@ -230,8 +350,23 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="main__right">
+                        <div class="main__right rw__right">
                             <div class="right__content">
+                                <div class="review">
+                                    <div class="review__content">
+                                        <div class="review__title">
+                                            Оставьте отзыв
+                                        </div>
+                                        <div class="review__text">
+                                            Расскажите о своем опыте пользования банком
+                                        </div>
+                                        <form>
+
+                                            <input type="submit" value="Написать отзыв">
+                                        </form>
+                                    </div>
+
+                                </div>
                                 <div class="reviews">
                                     <div class="reviews__title">
                                         Последние отзывы
@@ -273,74 +408,76 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="reviews__split"></div>
                                         <div class="reviews__item">
                                             <div class="reviews__name">
-                                                <span>Альфа-Банк</span>
+                                                <span>Райффайзен Банк</span>
                                             </div>
                                             <div class="reviews__stars stars">
-                                                <input type="radio" name="rating" id="rating_5" />
-                                                <label for="rating_5" class="label__rating"></label>
-                                                <input type="radio" name="rating" id="rating_4" />
-                                                <label for="rating_4" class="label__rating"></label>
-                                                <input type="radio" name="rating" id="rating_3" />
-                                                <label for="rating_3" class="label__rating"></label>
-                                                <input type="radio" name="rating" id="rating_2" />
-                                                <label for="rating_2" class="label__rating"></label>
-                                                <input type="radio" name="rating" id="rating_1" />
-                                                <label for="rating_1" class="label__rating"></label>
+                                                <input type="radio" name="rating1" id="rating_51" />
+                                                <label for="rating_51" class="label__rating"></label>
+                                                <input type="radio" name="rating1" id="rating_41" />
+                                                <label for="rating_41" class="label__rating"></label>
+                                                <input type="radio" name="rating1" id="rating_31" />
+                                                <label for="rating_31" class="label__rating"></label>
+                                                <input type="radio" name="rating1" id="rating_21" />
+                                                <label for="rating_21" class="label__rating"></label>
+                                                <input type="radio" name="rating1" id="rating_11" />
+                                                <label for="rating_11" class="label__rating"></label>
                                             </div>
                                             <div class="reviews__h">
-                                                Не прекращающийся спам от банка и партнеров
+                                                Райф- Дно, пробивающий дно!
                                             </div>
                                             <div class="reviews__text">
-                                                Один раз обратившись в банк (даже не став его клиентом в итоге) вы рискуете обречь себя на бесконечные звонки роботов...
+                                                Вот как бы не комично это звучало, а Райфайзен своими поступками дно пробил! Ситуация: 9.08 с моей кредитной карты, выданной мне...
                                             </div>
                                             <div class="reviews__bottom row">
                                                 <div class="reviews__l">
-                                                    <img src="/img/reviews/Ellipse12.png" alt="">
+                                                    <img src="/img/reviews/Ellipse12-1.png" alt="">
                                                 </div>
                                                 <div class="reviews__r">
                                                     <div class="reviews__n">
-                                                        Виктор Теплов
+                                                        Nicanoor
                                                     </div>
                                                     <div class="reviews__d">
-                                                        Час назад
+                                                        2 часа назад
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="reviews__split"></div>
                                         <div class="reviews__item">
                                             <div class="reviews__name">
-                                                <span>Альфа-Банк</span>
+                                                <span>Совкомбанк</span>
                                             </div>
                                             <div class="reviews__stars stars">
-                                                <input type="radio" name="rating" id="rating_5" />
-                                                <label for="rating_5" class="label__rating"></label>
-                                                <input type="radio" name="rating" id="rating_4" />
-                                                <label for="rating_4" class="label__rating"></label>
-                                                <input type="radio" name="rating" id="rating_3" />
-                                                <label for="rating_3" class="label__rating"></label>
-                                                <input type="radio" name="rating" id="rating_2" />
-                                                <label for="rating_2" class="label__rating"></label>
-                                                <input type="radio" name="rating" id="rating_1" />
-                                                <label for="rating_1" class="label__rating"></label>
+                                                <input type="radio" name="rating2" id="rating_52" />
+                                                <label for="rating_52" class="label__rating"></label>
+                                                <input type="radio" name="rating2" id="rating_42" />
+                                                <label for="rating_42" class="label__rating"></label>
+                                                <input type="radio" name="rating2" id="rating_32" />
+                                                <label for="rating_32" class="label__rating"></label>
+                                                <input type="radio" name="rating2" id="rating_22" />
+                                                <label for="rating_22" class="label__rating"></label>
+                                                <input type="radio" name="rating2" id="rating_12" />
+                                                <label for="rating_12" class="label__rating"></label>
                                             </div>
                                             <div class="reviews__h">
-                                                Не прекращающийся спам от банка и партнеров
+                                                Халва
                                             </div>
                                             <div class="reviews__text">
-                                                Один раз обратившись в банк (даже не став его клиентом в итоге) вы рискуете обречь себя на бесконечные звонки роботов...
+                                                Спасибо за лояльность и скорость) Само приложение очень удобное, легко дозвониться в службу поддержки не помню как звали...
                                             </div>
                                             <div class="reviews__bottom row">
                                                 <div class="reviews__l">
-                                                    <img src="/img/reviews/Ellipse12.png" alt="">
+                                                    <img src="/img/reviews/Ellipse12-2.png" alt="">
                                                 </div>
                                                 <div class="reviews__r">
                                                     <div class="reviews__n">
-                                                        Виктор Теплов
+                                                        User
                                                     </div>
                                                     <div class="reviews__d">
-                                                        Час назад
+                                                        День назад
                                                     </div>
                                                 </div>
                                             </div>
@@ -348,129 +485,120 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="email">
-                                <div class="email__content">
-                                    <div class="email__title">
-                                        Подпишитесь на рассылку
-                                    </div>
-                                    <form>
-                                        <input type="email" name="email" placeholder="Введите Вашу эл. почту">
-                                        <input type="submit" value="Подписаться">
-                                    </form>
-                                </div>
-                                <div class="email__push">
-                                    <span>Вы успешно подписаны!</span>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
-                    <div class="main__bottom bottom">
-                        <a class="full" href="#">Полная версия</a>
-                        <div class="bottom__row">
-                            <div class="bottom__logo">
-                                <img src="img/header/logo.png" alt="">
-                            </div>
-                            <ul class="bottom__list">
-                                <li><a href="#" class="bottom__link">О проекте</a></li>
-                                <li><a href="#" class="bottom__link">Реклама</a></li>
-                                <li><a href="#" class="bottom__link">Пользовательское соглашение</a></li>
-                                <li><a href="#" class="bottom__link">Служба поддержки</a></li>
-                                <li><a href="#" class="bottom__link">Политика конфиденциальности</a></li>
-                                <li><a href="#" class="bottom__link">Контакты</a></li>
-                            </ul>
-                            <div class="bottom__social">
-                                <img src="img/social/Vector.svg" alt="">
-                                <img src="img/social/Vector-1.svg" alt="">
-                                <img src="img/social/Vector-2.svg" alt="">
-                                <img src="img/social/Vector-3.svg" alt="">
-                            </div>
-                        </div>
+
+                </div>
+
+            </div>
+            <div class="main__bottom bottom">
+                <a class="full" href="#">Полная версия</a>
+                <div class="bottom__row">
+                    <div class="bottom__logo">
+                        <img src="img/header/logo.png" alt="">
+                    </div>
+                    <ul class="bottom__list">
+                        <li><a href="#" class="bottom__link">О проекте</a></li>
+                        <li><a href="#" class="bottom__link">Реклама</a></li>
+                        <li><a href="#" class="bottom__link">Пользовательское соглашение</a></li>
+                        <li><a href="#" class="bottom__link">Служба поддержки</a></li>
+                        <li><a href="#" class="bottom__link">Политика конфиденциальности</a></li>
+                        <li><a href="#" class="bottom__link">Контакты</a></li>
+                    </ul>
+                    <div class="bottom__social">
+                        <img src="img/social/Vector.svg" alt="">
+                        <img src="img/social/Vector-1.svg" alt="">
+                        <img src="img/social/Vector-2.svg" alt="">
+                        <img src="img/social/Vector-3.svg" alt="">
                     </div>
                 </div>
             </div>
-        </main>
-        <footer class="footer">
-            <div class="footer__wrapper">
-                <div class="footer__row">
-                    <div class="footer__item">
-                        <div class="footer__header">
-                            <span>Новости</span>
-                        </div>
-                        <ul class="footer__list">
-                            <li><a href="#" class="footer__link">Новости Pro.Недвижимость</a></li>
-                            <li><a href="#" class="footer__link">Пресс-релизы</a></li>
-                            <li><a href="#" class="footer__link">Блоги</a></li>
-                            <li><a href="#" class="footer__link">Мнение эксперта</a></li>
-                            <li><a href="#" class="footer__link">Интервью</a></li>
-                            <li><a href="#" class="footer__link">Исследование и аналитика</a></li>
-                            <li><a href="#" class="footer__link">Видео</a></li>
-                        </ul>
+    </div>
+    </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__row">
+                <div class="footer__item">
+                    <div class="footer__header">
+                        <span>Новости</span>
                     </div>
-                    <div class="footer__item">
-                        <div class="footer__header">
-                            <span>Недвижимость</span>
-                        </div>
-                        <ul class="footer__list">
-                            <li><a href="#" class="footer__link">Апартаменты</a></li>
-                            <li><a href="#" class="footer__link">Таунхаусы</a></li>
-                            <li><a href="#" class="footer__link">Коттеджные посёлки</a></li>
-                            <li><a href="#" class="footer__link">Земельные участки</a></li>
-                            <li><a href="#" class="footer__link">Спецпредложения</a></li>
-                            <li><a href="#" class="footer__link">Все компании</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer__item">
-                        <div class="footer__header">
-                            <span>Народный отзыв</span>
-                        </div>
-                        <ul class="footer__list">
-                            <li><a href="#" class="footer__link">Отзыв о компаниях</a></li>
-                            <li><a href="#" class="footer__link">Народный рейтинг</a></li>
-                            <li><a href="#" class="footer__link">Вопрос-ответ</a></li>
-                            <li><a href="#" class="footer__link">Форум</a></li>
-                            <li><a href="#" class="footer__link">Опросы</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer__item">
-                        <div class="footer__header">
-                            <span>Финансы и право</span>
-                        </div>
-                        <ul class="footer__list">
-                            <li><a href="#" class="footer__link">Ипотека и банки</a></li>
-                            <li><a href="#" class="footer__link">Страхование</a></li>
-                            <li><a href="#" class="footer__link">Юристы, оценка и налог</a></li>
-                            <li><a href="#" class="footer__link">Ипотечный калькулятор</a></li>
-                            <li><a href="#" class="footer__link">Калькулятор страхования</a></li>
-                            <li><a href="#" class="footer__link">Законодательство</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer__item">
-                        <div class="footer__header">
-                            <span>Всё для дома</span>
-                        </div>
-                        <ul class="footer__list">
-                            <li><a href="#" class="footer__link">Архитектура и дизайн</a></li>
-                            <li><a href="#" class="footer__link">Строительство и ремонт</a></li>
-                            <li><a href="#" class="footer__link">Всё для дома, дачи, сада</a></li>
-                            <li><a href="#" class="footer__link">Полезные советы</a></li>
-                            <li><a href="#" class="footer__link">Идеи для дома</a></li>
-                        </ul>
-                    </div>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Новости Pro.Недвижимость</a></li>
+                        <li><a href="#" class="footer__link">Пресс-релизы</a></li>
+                        <li><a href="#" class="footer__link">Блоги</a></li>
+                        <li><a href="#" class="footer__link">Мнение эксперта</a></li>
+                        <li><a href="#" class="footer__link">Интервью</a></li>
+                        <li><a href="#" class="footer__link">Исследование и аналитика</a></li>
+                        <li><a href="#" class="footer__link">Видео</a></li>
+                    </ul>
                 </div>
-                <div class="footer__split"></div>
-                <div class="footer__bottom">
-                    <div class="footer__text">
-                        Вся информация на сайте предоставлена исключительно с целью ознакомления, получена в том числе из публичных и открытых источников, и ни при каких условиях не является рекомендацией или публичной офертой, определяемой положениями Статьи 437 Гражданского
-                        кодекса РФ.
+                <div class="footer__item">
+                    <div class="footer__header">
+                        <span>Недвижимость</span>
                     </div>
-                    <div class="footer__copyright">
-                        <span id="copyright">© 2020 Rendv.ru</span><span> Ревизор недвижимости</span>
-                        <br>
-                        <span>Все права защищены</span>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Апартаменты</a></li>
+                        <li><a href="#" class="footer__link">Таунхаусы</a></li>
+                        <li><a href="#" class="footer__link">Коттеджные посёлки</a></li>
+                        <li><a href="#" class="footer__link">Земельные участки</a></li>
+                        <li><a href="#" class="footer__link">Спецпредложения</a></li>
+                        <li><a href="#" class="footer__link">Все компании</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__header">
+                        <span>Народный отзыв</span>
                     </div>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Отзыв о компаниях</a></li>
+                        <li><a href="#" class="footer__link">Народный рейтинг</a></li>
+                        <li><a href="#" class="footer__link">Вопрос-ответ</a></li>
+                        <li><a href="#" class="footer__link">Форум</a></li>
+                        <li><a href="#" class="footer__link">Опросы</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__header">
+                        <span>Финансы и право</span>
+                    </div>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Ипотека и банки</a></li>
+                        <li><a href="#" class="footer__link">Страхование</a></li>
+                        <li><a href="#" class="footer__link">Юристы, оценка и налог</a></li>
+                        <li><a href="#" class="footer__link">Ипотечный калькулятор</a></li>
+                        <li><a href="#" class="footer__link">Калькулятор страхования</a></li>
+                        <li><a href="#" class="footer__link">Законодательство</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__header">
+                        <span>Всё для дома</span>
+                    </div>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Архитектура и дизайн</a></li>
+                        <li><a href="#" class="footer__link">Строительство и ремонт</a></li>
+                        <li><a href="#" class="footer__link">Всё для дома, дачи, сада</a></li>
+                        <li><a href="#" class="footer__link">Полезные советы</a></li>
+                        <li><a href="#" class="footer__link">Идеи для дома</a></li>
+                    </ul>
                 </div>
             </div>
-        </footer>
+            <div class="footer__split"></div>
+            <div class="footer__bottom">
+                <div class="footer__text">
+                    Вся информация на сайте предоставлена исключительно с целью ознакомления, получена в том числе из публичных и открытых источников, и ни при каких условиях не является рекомендацией или публичной офертой, определяемой положениями Статьи 437 Гражданского
+                    кодекса РФ.
+                </div>
+                <div class="footer__copyright">
+                    <span id="copyright">© 2020 Rendv.ru</span><span> Ревизор недвижимости</span>
+                    <br>
+                    <span>Все права защищены</span>
+                </div>
+            </div>
+        </div>
+    </footer>
     </div>
     <script src="js/jquery-3.6.0.min.js "></script>
     <script src="js/main.js "></script>
